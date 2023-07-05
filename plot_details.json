@@ -1,0 +1,24 @@
+[
+    {
+        "id": 111,
+        "address":"Gaya",
+        "area":"1000",
+        "basePrice": 2000000,
+        "image":"image1.jpg"        
+    },
+    {
+        "id": 112,
+        "address":"Manpur",
+        "area":"1500",
+        "basePrice": 3000000,
+        "image":"image2.jpg" 
+    },
+    {
+        "id": 113,
+        "address":"Patna",
+        "area":"2000",
+        "basePrice": 3500000,
+        "image":"image3.jpg" 
+    }
+    
+]

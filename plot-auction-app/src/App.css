@@ -1,0 +1,156 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.label-center {
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: cadetblue;
+  color: white;
+  padding: 5px 10px;
+
+}
+
+.user-banner {
+  background-color: #f7f7f9;
+  color: #2f6f9f;
+  padding-bottom: 20px;
+}
+
+#inputUsername {
+  margin-right: 10px;
+}
+
+#inputBid {
+  margin-right: 10px;
+}
+
+.rebid-input {
+  margin-left: 29%;
+  margin-top: 20px;
+}
+
+.plot-detail {
+  background-color: #eee;
+  padding-top: 20px;
+  min-height: 800px;
+}
+
+
+.clock {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+.clock>div {
+  padding: 4px;
+  border-radius: 3px;
+  background: rgb(39, 154, 158);
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.clock div>span {
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: rgb(163, 101, 25);
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 9px;
+}
+
+
+.bid-form {
+  padding-top: 10px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  max-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: fit-content;
+  height: 12rem;
+}
+
+.card-details {
+  font-weight: 600;
+}
+
+.card-title {
+  height: 2rem;
+}
+
+.card-base-price {
+  height: 1rem;
+}
+
+.card-area-measure{
+  margin-top:1rem;
+}
+
+.card-bid-timer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bid-form {
+  margin-top: 1rem;
+}
+
+.bid-history {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bid-history-header {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.bid-table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+.bid-table>span {
+  padding: 8px 4px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.table-header-cell {
+  background-color: cadetblue;
+  font-weight: bold;
+}
